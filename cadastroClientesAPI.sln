@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadastroClientesAPI", "cadastroClientesAPI\cadastroClientesAPI.csproj", "{06794215-F4ED-4E3D-B81F-17D34EA2CFE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadastroClientes.Domain", "cadastroClientes.Domain\cadastroClientes.Domain.csproj", "{C2DAE28B-1290-4011-8110-7E617FA82295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadastroClientes.Application", "cadastroClientes.Application\cadastroClientes.Application.csproj", "{893C4BA3-0D4D-4ECC-B5FD-1F32BD25C7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadastroClientes.Infrastructure", "cadastroClientes.Infrastructure\cadastroClientes.Infrastructure.csproj", "{FC9C19C0-2538-4597-9FE6-6937F35003CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadastroClientes.Tests", "cadastroClientes.Tests\cadastroClientes.Tests.csproj", "{2E41D6D5-DD95-45B2-BDBE-A500E9A5CFFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{067D1213-E5D9-4D42-8B0F-2BAAE9AE7382}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EC286EC1-428C-4679-9447-909A7E961D03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06794215-F4ED-4E3D-B81F-17D34EA2CFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06794215-F4ED-4E3D-B81F-17D34EA2CFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06794215-F4ED-4E3D-B81F-17D34EA2CFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06794215-F4ED-4E3D-B81F-17D34EA2CFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DAE28B-1290-4011-8110-7E617FA82295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DAE28B-1290-4011-8110-7E617FA82295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DAE28B-1290-4011-8110-7E617FA82295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DAE28B-1290-4011-8110-7E617FA82295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893C4BA3-0D4D-4ECC-B5FD-1F32BD25C7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893C4BA3-0D4D-4ECC-B5FD-1F32BD25C7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893C4BA3-0D4D-4ECC-B5FD-1F32BD25C7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893C4BA3-0D4D-4ECC-B5FD-1F32BD25C7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9C19C0-2538-4597-9FE6-6937F35003CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9C19C0-2538-4597-9FE6-6937F35003CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9C19C0-2538-4597-9FE6-6937F35003CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9C19C0-2538-4597-9FE6-6937F35003CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E41D6D5-DD95-45B2-BDBE-A500E9A5CFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E41D6D5-DD95-45B2-BDBE-A500E9A5CFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E41D6D5-DD95-45B2-BDBE-A500E9A5CFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E41D6D5-DD95-45B2-BDBE-A500E9A5CFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {881D5452-8C6B-4C41-9A6C-490A115FA9AA}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E41D6D5-DD95-45B2-BDBE-A500E9A5CFFC} = {EC286EC1-428C-4679-9447-909A7E961D03}
+	EndGlobalSection
+EndGlobal
